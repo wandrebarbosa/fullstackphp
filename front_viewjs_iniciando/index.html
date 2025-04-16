@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <title>Lista de Compras</title>
@@ -20,12 +20,32 @@
             <ul>
                 <li>
                     <div class="checkbox">
-
+                        <label>
+                            <input class="js-item" name="list" type="checkbox">
+                            <p>Arroz</p>
+                        </label>
+                    </div>
+                </li>
+                <li>
+                    <div class="checkbox">
+                      <label>
+                          <input class="js-item" name="list" type="checkbox">
+                          <p>Tomate</p>
+                        </label>
+                    </div>
+                  </li>
+                <li class="removido">
+                    <div class="checkbox">
+                        <label>
+                            <input class="js-item" name="list" type="checkbox" checked>
+                            <p>Calabresa</p>
+                        </label>
                     </div>
                 </li>
             </ul>
-
         </div>
 
     </body>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </html>
